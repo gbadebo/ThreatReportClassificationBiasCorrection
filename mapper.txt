@@ -1,0 +1,9 @@
+id	Mandiant tpp	Lockeed martin attack life cycle	Mitre/lockeed martin tpp
+1	Initial Reconnaisance	Recon	
+2	Initial Compromise	weaponize,deliver,exploit	
+3	establish foothold	maintain	Discovery,Credential Access,Persistence,Defense Evasion
+4	escalate privilege	maintain	Privilege Escalation,Credential Access,Lateral Movement
+5	internal recon	maintain	Lateral Movement, Discovery, Defense Evasion
+6	move laterally	maintain	Lateral Movement, Privilege Escalation, Defense Evasion
+7	maintain presence	maintain	Persistence,Defense Evasion, Lateral Movement, Privilege Escalation
+8	complete mission	control,execute	Exfiltration, Command and Control, Collection, Execution
